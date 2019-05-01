@@ -31,14 +31,13 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
-                
+
                 <EditText
                     android:id="@+id/campoCodigo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:hint="Código"
-                    />
+                    android:hint="Matrícula" />
 
                 <Button
                     android:id="@+id/btnFoto"
