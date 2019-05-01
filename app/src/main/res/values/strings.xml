@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">S H E E P</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sheep</string>
+    <string name="nav_header_subtitle">Foto frequência</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurações</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="texto_desenvolvedor1">Robson Vaz.</string>
+    <string name="texto_desenvolvedor2">Marcelo Cruz.</string>
+    <string name="texto_desenvolvedor3">Caio Martins.</string>
+    <string name="texto_desenvolvedor4">Marcos W.</string>
+    <string name="texto_inicial">DESENVOLVENDO ESTRUTURAS PARA APLICATIVOS MOBILE COM ANDROID STUDIO 2018 E BANCO DE DADOS MYSQL USANDO WEB SERVICE PHP, JSON, CRIANDO TODO O CRUD PARA O BANCO DE DADOS BEM COMO MANIPULAÇÃO DE IMAGENS E DIVERSOS OUTROS RECURSOS! </string>
+
+
+</resources>

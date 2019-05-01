@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_registro"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Cursos" />
+        <item
+            android:id="@+id/nav_consulta"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Consultar Curso" />
+        <item
+            android:id="@+id/nav_consulta_url"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Consultar Curso por URL" />
+
+
+        <item
+            android:id="@+id/nav_consulta_lista"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Consultar lista de Cursos" />
+
+
+        <item
+            android:id="@+id/nav_consulta_cursos_img"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Lista de Cursos Imagem" />
+
+        <item
+            android:id="@+id/nav_consulta_img_url"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Lista de Cursos Imagem URL" />
+
+    </group>
+
+    <item android:title="Informações">
+        <menu>
+            <item
+                android:id="@+id/nav_desenvolvedor"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="Desenvolvedor" />
+
+        </menu>
+    </item>
+
+</menu>

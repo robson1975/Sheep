@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    tools:context=".fragmentos.bemVindoFragmento">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/layoutImagens"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mysql"
+            android:layout_weight="2"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/php"
+            android:layout_weight="2"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/json"
+            android:layout_weight="2"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textoBemVindo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_inicial"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/layoutImagens"
+        />
+
+
+    <ImageView
+        android:id="@+id/imagemBemVindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="17dp"
+        android:src="@drawable/sheep"
+        android:layout_below="@+id/textoBemVindo"
+        />
+
+</RelativeLayout>
