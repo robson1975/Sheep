@@ -11,32 +11,32 @@
         <item
             android:id="@+id/nav_registro"
             android:icon="@android:drawable/ic_menu_add"
-            android:title="Cursos" />
+            android:title="Alunos" />
         <item
             android:id="@+id/nav_consulta"
             android:icon="@android:drawable/ic_menu_search"
-            android:title="Consultar Curso" />
+            android:title="Turmas" />
         <item
             android:id="@+id/nav_consulta_url"
             android:icon="@android:drawable/ic_menu_search"
-            android:title="Consultar Curso por URL" />
+            android:title="Consultar" />
 
 
-        <item
-            android:id="@+id/nav_consulta_lista"
-            android:icon="@android:drawable/ic_menu_search"
-            android:title="Consultar lista de Cursos" />
+        <!--<item-->
+            <!--android:id="@+id/nav_consulta_lista"-->
+            <!--android:icon="@android:drawable/ic_menu_search"-->
+            <!--android:title="Consultar lista de Cursos" />-->
 
 
-        <item
-            android:id="@+id/nav_consulta_cursos_img"
-            android:icon="@android:drawable/ic_menu_search"
-            android:title="Lista de Cursos Imagem" />
+        <!--<item-->
+            <!--android:id="@+id/nav_consulta_cursos_img"-->
+            <!--android:icon="@android:drawable/ic_menu_search"-->
+            <!--android:title="Lista de Cursos Imagem" />-->
 
-        <item
-            android:id="@+id/nav_consulta_img_url"
-            android:icon="@android:drawable/ic_menu_search"
-            android:title="Lista de Cursos Imagem URL" />
+        <!--<item-->
+            <!--android:id="@+id/nav_consulta_img_url"-->
+            <!--android:icon="@android:drawable/ic_menu_search"-->
+            <!--android:title="Lista de Cursos Imagem URL" />-->
 
     </group>
 
